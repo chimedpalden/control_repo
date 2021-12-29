@@ -1,5 +1,5 @@
 node default {
-  file {'root/README':
+  file {'home/centos/README':
     ensure => file,
   }
 }
