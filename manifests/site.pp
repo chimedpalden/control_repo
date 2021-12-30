@@ -5,7 +5,7 @@ node default {
     owner => 'root',
   }
 }
-node 'ip-172-31-87-48.ec2.internal' {
+node 'ip-172-31-81-104.ec2.internal' {
   include role::master_server
 }
 
